@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *playButton;
 @property (weak, nonatomic) IBOutlet UIButton *pauseButton;
 @property (weak, nonatomic) IBOutlet UILabel *headlineLabel;
+@property (weak, nonatomic) IBOutlet UIView *sectionsView;
 
 - (IBAction)wpmSlider:(UISlider *)sender;
 - (IBAction)wpmTouch:(id)sender;
@@ -28,11 +29,20 @@
 - (IBAction)backClick:(id)sender;
 - (IBAction)swipeLeft:(id)sender;
 - (IBAction)swipeRight:(id)sender;
+- (IBAction)hamburgerButton:(id)sender;
+
+- (IBAction)topNewsClick:(id)sender;
+- (IBAction)newsOnlyClick:(id)sender;
+- (IBAction)worldClick:(id)sender;
+- (IBAction)nationClick:(id)sender;
+- (IBAction)techClick:(id)sender;
+- (IBAction)healthClick:(id)sender;
+- (IBAction)weatherClick:(id)sender;
+- (IBAction)moneyClick:(id)sender;
 
 @property (strong, nonatomic) NSMutableArray *titles;
 @property (strong, nonatomic) NSMutableArray *articles;
 @property (assign, nonatomic) NSUInteger currentMarker;
-@property (strong, nonatomic) NSArray *newsSections;
 
 @end
 
