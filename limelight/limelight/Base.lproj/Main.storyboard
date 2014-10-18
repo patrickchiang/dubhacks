@@ -26,7 +26,7 @@
             <objects>
                 <viewController id="07b-VT-0Lb" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lCr-rP-hCj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="z88-BF-5MX">
@@ -38,8 +38,9 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZeY-Jk-PhT">
-                                        <rect key="frame" x="275" y="20" width="30" height="13"/>
+                                        <rect key="frame" x="260" y="5" width="60" height="43"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <inset key="contentEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
                                         <state key="normal" title="Button" image="hamburger.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -58,6 +59,25 @@
                                         <rect key="frame" x="17" y="20" width="283" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="4LT-af-yZ5">
+                                        <rect key="frame" x="60" y="0.0" width="200" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" id="UnL-G1-7D6">
+                                                <rect key="frame" x="82" y="23" width="37" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </activityIndicatorView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Getting news articles..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J1e-Bx-YBA">
+                                                <rect key="frame" x="12" y="62" width="176" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.82745098039999998" green="0.82745098039999998" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -122,15 +142,23 @@
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usatodaylogo.png" id="NNG-jQ-cqM">
-                                        <rect key="frame" x="59" y="9" width="203" height="112"/>
+                                        <rect key="frame" x="80" y="22" width="162" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guardianlogo.jpg" id="aGp-ku-Sfp">
+                                        <rect key="frame" x="17" y="37" width="285" height="63"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hand.png" id="vZZ-Sp-X50">
+                                        <rect key="frame" x="270" y="5" width="43" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.015686274509803921" green="0.62745098039215685" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="skw-ao-fD6" appends="YES" id="VSl-wU-7xZ"/>
-                                    <outletCollection property="gestureRecognizers" destination="eNH-1u-Day" appends="YES" id="2N4-fc-ThW"/>
+                                    <outletCollection property="gestureRecognizers" destination="KIZ-1s-Xud" appends="YES" id="SzB-ra-hLs"/>
+                                    <outletCollection property="gestureRecognizers" destination="4Nk-K3-hxe" appends="YES" id="f67-G6-cK9"/>
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" id="xnp-d3-n3s">
@@ -202,7 +230,7 @@
                                         <rect key="frame" x="42" y="30" width="74" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="News Only">
+                                        <state key="normal" title="Opinion">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -259,10 +287,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fHp-uR-rQX">
-                                        <rect key="frame" x="45" y="0.0" width="68" height="30"/>
+                                        <rect key="frame" x="44" y="0.0" width="70" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="Top News">
+                                        <state key="normal" title="Top Stories">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -277,14 +305,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="cTo-SE-vpQ"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="800"/>
                     <connections>
+                        <outlet property="activityView" destination="4LT-af-yZ5" id="Wqt-Gu-DT2"/>
+                        <outlet property="guardianLogo" destination="aGp-ku-Sfp" id="7GH-Ug-F8J"/>
                         <outlet property="headlineLabel" destination="8oM-Z3-wxr" id="TWE-nl-g6W"/>
+                        <outlet property="logoBackgroundView" destination="aSI-G6-i7g" id="Esf-9a-dUy"/>
                         <outlet property="pauseButton" destination="7ni-x6-0Rr" id="Np0-Nd-WbL"/>
                         <outlet property="playButton" destination="lEl-Yl-2IN" id="HqO-Wn-7lm"/>
                         <outlet property="sectionsView" destination="NL2-OG-xnS" id="fwd-pw-eNn"/>
                         <outlet property="sliderView" destination="68p-yD-dev" id="VUm-lz-44i"/>
                         <outlet property="spritzLabel" destination="g7e-hb-orV" id="Xyj-C0-zLY"/>
+                        <outlet property="tutorialLabel" destination="vZZ-Sp-X50" id="6hJ-7D-Hy7"/>
+                        <outlet property="usatodayLogo" destination="NNG-jQ-cqM" id="JmG-D7-GOD"/>
                         <outlet property="wpmLabel" destination="rmV-fh-l6Q" id="5rp-Ra-v3J"/>
                         <outlet property="wpmSlider" destination="12Q-hd-fQx" id="2Ru-t3-6a8"/>
                     </connections>
@@ -300,14 +334,52 @@
                         <action selector="swipeRight:" destination="07b-VT-0Lb" id="qiY-F7-eOE"/>
                     </connections>
                 </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="KIZ-1s-Xud">
+                    <connections>
+                        <action selector="swipeLogo:" destination="07b-VT-0Lb" id="xRU-aw-JO4"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="4Nk-K3-hxe">
+                    <connections>
+                        <action selector="swipeLogo:" destination="07b-VT-0Lb" id="78j-QG-CQT"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="408" y="145"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nDF-qr-WKX">
+            <objects>
+                <viewController id="kJI-rR-4H4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zcQ-wH-qWN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3wb-G7-yAk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hQZ-K8-kOc">
+            <objects>
+                <viewController id="Tsi-Ol-gfM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5om-WI-dGd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bYY-jF-l3y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>
         <image name="back.png" width="94" height="94"/>
         <image name="forward.png" width="94" height="94"/>
+        <image name="guardianlogo.jpg" width="1772" height="314"/>
         <image name="hamburger.png" width="131" height="61"/>
+        <image name="hand.png" width="313" height="267"/>
         <image name="logo.png" width="446" height="116"/>
         <image name="pause.png" width="108" height="111"/>
         <image name="play.png" width="140" height="162"/>

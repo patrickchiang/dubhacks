@@ -41,6 +41,9 @@
 		CDAFD33D19F2D770001600FE /* sections.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAFD33B19F2D770001600FE /* sections.png */; };
 		CDAFD33F19F2E8EB001600FE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAFD33E19F2E8EB001600FE /* logo.png */; };
 		CDAFD34119F2E9FF001600FE /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAFD34019F2E9FF001600FE /* splash.png */; };
+		CDAFD34319F2FE43001600FE /* guardianlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDAFD34219F2FE43001600FE /* guardianlogo.jpg */; };
+		CDAFD34519F30806001600FE /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAFD34419F30806001600FE /* arrow.png */; };
+		CDAFD34719F3109A001600FE /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAFD34619F3109A001600FE /* hand.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +120,9 @@
 		CDAFD33B19F2D770001600FE /* sections.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sections.png; sourceTree = "<group>"; };
 		CDAFD33E19F2E8EB001600FE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		CDAFD34019F2E9FF001600FE /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		CDAFD34219F2FE43001600FE /* guardianlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guardianlogo.jpg; sourceTree = "<group>"; };
+		CDAFD34419F30806001600FE /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		CDAFD34619F3109A001600FE /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,9 @@
 		CD975F4419F2045500A20C86 /* limelight */ = {
 			isa = PBXGroup;
 			children = (
+				CDAFD34619F3109A001600FE /* hand.png */,
+				CDAFD34419F30806001600FE /* arrow.png */,
+				CDAFD34219F2FE43001600FE /* guardianlogo.jpg */,
 				CDAFD34019F2E9FF001600FE /* splash.png */,
 				CDAFD33E19F2E8EB001600FE /* logo.png */,
 				CDAFD33A19F2D770001600FE /* hamburger.png */,
@@ -344,14 +353,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD975F5119F2045500A20C86 /* Main.storyboard in Resources */,
+				CDAFD34319F2FE43001600FE /* guardianlogo.jpg in Resources */,
 				CD975F7C19F2528F00A20C86 /* back.png in Resources */,
 				CDAFD33F19F2E8EB001600FE /* logo.png in Resources */,
 				CD975F5619F2045500A20C86 /* LaunchScreen.xib in Resources */,
+				CDAFD34519F30806001600FE /* arrow.png in Resources */,
 				CDAFD34119F2E9FF001600FE /* splash.png in Resources */,
 				CDAFD33D19F2D770001600FE /* sections.png in Resources */,
 				CDAFD2A119F26BE2001600FE /* pause.png in Resources */,
 				CD975F5319F2045500A20C86 /* Images.xcassets in Resources */,
 				CD975F7D19F2528F00A20C86 /* play.png in Resources */,
+				CDAFD34719F3109A001600FE /* hand.png in Resources */,
 				CDAFD33919F2C37A001600FE /* usatodaylogo.png in Resources */,
 				CDAFD33C19F2D770001600FE /* hamburger.png in Resources */,
 				CD975F7E19F2528F00A20C86 /* forward.png in Resources */,
