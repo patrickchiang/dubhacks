@@ -16,9 +16,27 @@
 		CD975F6219F2045600A20C86 /* limelightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD975F6119F2045600A20C86 /* limelightTests.m */; };
 		CD975F7719F245B800A20C86 /* OSSpritz.m in Sources */ = {isa = PBXBuildFile; fileRef = CD975F7419F245B800A20C86 /* OSSpritz.m */; };
 		CD975F7819F245B800A20C86 /* OSSpritzLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD975F7619F245B800A20C86 /* OSSpritzLabel.m */; };
-		CD975F7C19F2528F00A20C86 /* image00.png in Resources */ = {isa = PBXBuildFile; fileRef = CD975F7919F2528F00A20C86 /* image00.png */; };
-		CD975F7D19F2528F00A20C86 /* image01.png in Resources */ = {isa = PBXBuildFile; fileRef = CD975F7A19F2528F00A20C86 /* image01.png */; };
-		CD975F7E19F2528F00A20C86 /* image02.png in Resources */ = {isa = PBXBuildFile; fileRef = CD975F7B19F2528F00A20C86 /* image02.png */; };
+		CD975F7C19F2528F00A20C86 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = CD975F7919F2528F00A20C86 /* back.png */; };
+		CD975F7D19F2528F00A20C86 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = CD975F7A19F2528F00A20C86 /* play.png */; };
+		CD975F7E19F2528F00A20C86 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = CD975F7B19F2528F00A20C86 /* forward.png */; };
+		CDAFD2A119F26BE2001600FE /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAFD2A019F26BE2001600FE /* pause.png */; };
+		CDAFD32619F2B3DD001600FE /* HTMLComment.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD30219F2B3DD001600FE /* HTMLComment.m */; };
+		CDAFD32719F2B3DD001600FE /* HTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD30419F2B3DD001600FE /* HTMLDocument.m */; };
+		CDAFD32819F2B3DD001600FE /* HTMLDocumentType.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD30619F2B3DD001600FE /* HTMLDocumentType.m */; };
+		CDAFD32919F2B3DD001600FE /* HTMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD30819F2B3DD001600FE /* HTMLElement.m */; };
+		CDAFD32A19F2B3DD001600FE /* HTMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD30A19F2B3DD001600FE /* HTMLEntities.m */; };
+		CDAFD32B19F2B3DD001600FE /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD30D19F2B3DD001600FE /* HTMLNode.m */; };
+		CDAFD32C19F2B3DD001600FE /* HTMLOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD30F19F2B3DD001600FE /* HTMLOrderedDictionary.m */; };
+		CDAFD32D19F2B3DD001600FE /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD31119F2B3DD001600FE /* HTMLParser.m */; };
+		CDAFD32E19F2B3DD001600FE /* HTMLPreprocessedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD31319F2B3DD001600FE /* HTMLPreprocessedInputStream.m */; };
+		CDAFD32F19F2B3DD001600FE /* HTMLSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD31719F2B3DD001600FE /* HTMLSelector.m */; };
+		CDAFD33019F2B3DD001600FE /* HTMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD31919F2B3DD001600FE /* HTMLSerialization.m */; };
+		CDAFD33119F2B3DD001600FE /* HTMLString.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD31B19F2B3DD001600FE /* HTMLString.m */; };
+		CDAFD33219F2B3DD001600FE /* HTMLTextNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD31E19F2B3DD001600FE /* HTMLTextNode.m */; };
+		CDAFD33319F2B3DD001600FE /* HTMLTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD32019F2B3DD001600FE /* HTMLTokenizer.m */; };
+		CDAFD33419F2B3DD001600FE /* HTMLTreeEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD32319F2B3DD001600FE /* HTMLTreeEnumerator.m */; };
+		CDAFD33519F2B3DD001600FE /* NSString+HTMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD32519F2B3DD001600FE /* NSString+HTMLEntities.m */; };
+		CDAFD33919F2C37A001600FE /* usatodaylogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAFD33819F2C37A001600FE /* usatodaylogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +67,48 @@
 		CD975F7419F245B800A20C86 /* OSSpritz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSpritz.m; sourceTree = "<group>"; };
 		CD975F7519F245B800A20C86 /* OSSpritzLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSpritzLabel.h; sourceTree = "<group>"; };
 		CD975F7619F245B800A20C86 /* OSSpritzLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSpritzLabel.m; sourceTree = "<group>"; };
-		CD975F7919F2528F00A20C86 /* image00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image00.png; sourceTree = "<group>"; };
-		CD975F7A19F2528F00A20C86 /* image01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image01.png; sourceTree = "<group>"; };
-		CD975F7B19F2528F00A20C86 /* image02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image02.png; sourceTree = "<group>"; };
+		CD975F7919F2528F00A20C86 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		CD975F7A19F2528F00A20C86 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		CD975F7B19F2528F00A20C86 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		CDAFD2A019F26BE2001600FE /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		CDAFD30119F2B3DD001600FE /* HTMLComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLComment.h; sourceTree = "<group>"; };
+		CDAFD30219F2B3DD001600FE /* HTMLComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLComment.m; sourceTree = "<group>"; };
+		CDAFD30319F2B3DD001600FE /* HTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLDocument.h; sourceTree = "<group>"; };
+		CDAFD30419F2B3DD001600FE /* HTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLDocument.m; sourceTree = "<group>"; };
+		CDAFD30519F2B3DD001600FE /* HTMLDocumentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLDocumentType.h; sourceTree = "<group>"; };
+		CDAFD30619F2B3DD001600FE /* HTMLDocumentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLDocumentType.m; sourceTree = "<group>"; };
+		CDAFD30719F2B3DD001600FE /* HTMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLElement.h; sourceTree = "<group>"; };
+		CDAFD30819F2B3DD001600FE /* HTMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLElement.m; sourceTree = "<group>"; };
+		CDAFD30919F2B3DD001600FE /* HTMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLEntities.h; sourceTree = "<group>"; };
+		CDAFD30A19F2B3DD001600FE /* HTMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLEntities.m; sourceTree = "<group>"; };
+		CDAFD30B19F2B3DD001600FE /* HTMLNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNamespace.h; sourceTree = "<group>"; };
+		CDAFD30C19F2B3DD001600FE /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		CDAFD30D19F2B3DD001600FE /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		CDAFD30E19F2B3DD001600FE /* HTMLOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLOrderedDictionary.h; sourceTree = "<group>"; };
+		CDAFD30F19F2B3DD001600FE /* HTMLOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLOrderedDictionary.m; sourceTree = "<group>"; };
+		CDAFD31019F2B3DD001600FE /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		CDAFD31119F2B3DD001600FE /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		CDAFD31219F2B3DD001600FE /* HTMLPreprocessedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLPreprocessedInputStream.h; sourceTree = "<group>"; };
+		CDAFD31319F2B3DD001600FE /* HTMLPreprocessedInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLPreprocessedInputStream.m; sourceTree = "<group>"; };
+		CDAFD31419F2B3DD001600FE /* HTMLQuirksMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLQuirksMode.h; sourceTree = "<group>"; };
+		CDAFD31519F2B3DD001600FE /* HTMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLReader.h; sourceTree = "<group>"; };
+		CDAFD31619F2B3DD001600FE /* HTMLSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLSelector.h; sourceTree = "<group>"; };
+		CDAFD31719F2B3DD001600FE /* HTMLSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLSelector.m; sourceTree = "<group>"; };
+		CDAFD31819F2B3DD001600FE /* HTMLSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLSerialization.h; sourceTree = "<group>"; };
+		CDAFD31919F2B3DD001600FE /* HTMLSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLSerialization.m; sourceTree = "<group>"; };
+		CDAFD31A19F2B3DD001600FE /* HTMLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLString.h; sourceTree = "<group>"; };
+		CDAFD31B19F2B3DD001600FE /* HTMLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLString.m; sourceTree = "<group>"; };
+		CDAFD31C19F2B3DD001600FE /* HTMLSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLSupport.h; sourceTree = "<group>"; };
+		CDAFD31D19F2B3DD001600FE /* HTMLTextNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLTextNode.h; sourceTree = "<group>"; };
+		CDAFD31E19F2B3DD001600FE /* HTMLTextNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLTextNode.m; sourceTree = "<group>"; };
+		CDAFD31F19F2B3DD001600FE /* HTMLTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLTokenizer.h; sourceTree = "<group>"; };
+		CDAFD32019F2B3DD001600FE /* HTMLTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLTokenizer.m; sourceTree = "<group>"; };
+		CDAFD32119F2B3DD001600FE /* HTMLTokenizerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLTokenizerState.h; sourceTree = "<group>"; };
+		CDAFD32219F2B3DD001600FE /* HTMLTreeEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLTreeEnumerator.h; sourceTree = "<group>"; };
+		CDAFD32319F2B3DD001600FE /* HTMLTreeEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLTreeEnumerator.m; sourceTree = "<group>"; };
+		CDAFD32419F2B3DD001600FE /* NSString+HTMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTMLEntities.h"; sourceTree = "<group>"; };
+		CDAFD32519F2B3DD001600FE /* NSString+HTMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTMLEntities.m"; sourceTree = "<group>"; };
+		CDAFD33819F2C37A001600FE /* usatodaylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usatodaylogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +150,12 @@
 		CD975F4419F2045500A20C86 /* limelight */ = {
 			isa = PBXGroup;
 			children = (
-				CD975F7919F2528F00A20C86 /* image00.png */,
-				CD975F7A19F2528F00A20C86 /* image01.png */,
-				CD975F7B19F2528F00A20C86 /* image02.png */,
+				CDAFD33819F2C37A001600FE /* usatodaylogo.png */,
+				CDAFD30019F2B3DD001600FE /* HTML */,
+				CDAFD2A019F26BE2001600FE /* pause.png */,
+				CD975F7919F2528F00A20C86 /* back.png */,
+				CD975F7A19F2528F00A20C86 /* play.png */,
+				CD975F7B19F2528F00A20C86 /* forward.png */,
 				CD975F7219F245B800A20C86 /* OSSpritz */,
 				CD975F4919F2045500A20C86 /* AppDelegate.h */,
 				CD975F4A19F2045500A20C86 /* AppDelegate.m */,
@@ -144,6 +204,50 @@
 				CD975F7619F245B800A20C86 /* OSSpritzLabel.m */,
 			);
 			path = OSSpritz;
+			sourceTree = "<group>";
+		};
+		CDAFD30019F2B3DD001600FE /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				CDAFD30119F2B3DD001600FE /* HTMLComment.h */,
+				CDAFD30219F2B3DD001600FE /* HTMLComment.m */,
+				CDAFD30319F2B3DD001600FE /* HTMLDocument.h */,
+				CDAFD30419F2B3DD001600FE /* HTMLDocument.m */,
+				CDAFD30519F2B3DD001600FE /* HTMLDocumentType.h */,
+				CDAFD30619F2B3DD001600FE /* HTMLDocumentType.m */,
+				CDAFD30719F2B3DD001600FE /* HTMLElement.h */,
+				CDAFD30819F2B3DD001600FE /* HTMLElement.m */,
+				CDAFD30919F2B3DD001600FE /* HTMLEntities.h */,
+				CDAFD30A19F2B3DD001600FE /* HTMLEntities.m */,
+				CDAFD30B19F2B3DD001600FE /* HTMLNamespace.h */,
+				CDAFD30C19F2B3DD001600FE /* HTMLNode.h */,
+				CDAFD30D19F2B3DD001600FE /* HTMLNode.m */,
+				CDAFD30E19F2B3DD001600FE /* HTMLOrderedDictionary.h */,
+				CDAFD30F19F2B3DD001600FE /* HTMLOrderedDictionary.m */,
+				CDAFD31019F2B3DD001600FE /* HTMLParser.h */,
+				CDAFD31119F2B3DD001600FE /* HTMLParser.m */,
+				CDAFD31219F2B3DD001600FE /* HTMLPreprocessedInputStream.h */,
+				CDAFD31319F2B3DD001600FE /* HTMLPreprocessedInputStream.m */,
+				CDAFD31419F2B3DD001600FE /* HTMLQuirksMode.h */,
+				CDAFD31519F2B3DD001600FE /* HTMLReader.h */,
+				CDAFD31619F2B3DD001600FE /* HTMLSelector.h */,
+				CDAFD31719F2B3DD001600FE /* HTMLSelector.m */,
+				CDAFD31819F2B3DD001600FE /* HTMLSerialization.h */,
+				CDAFD31919F2B3DD001600FE /* HTMLSerialization.m */,
+				CDAFD31A19F2B3DD001600FE /* HTMLString.h */,
+				CDAFD31B19F2B3DD001600FE /* HTMLString.m */,
+				CDAFD31C19F2B3DD001600FE /* HTMLSupport.h */,
+				CDAFD31D19F2B3DD001600FE /* HTMLTextNode.h */,
+				CDAFD31E19F2B3DD001600FE /* HTMLTextNode.m */,
+				CDAFD31F19F2B3DD001600FE /* HTMLTokenizer.h */,
+				CDAFD32019F2B3DD001600FE /* HTMLTokenizer.m */,
+				CDAFD32119F2B3DD001600FE /* HTMLTokenizerState.h */,
+				CDAFD32219F2B3DD001600FE /* HTMLTreeEnumerator.h */,
+				CDAFD32319F2B3DD001600FE /* HTMLTreeEnumerator.m */,
+				CDAFD32419F2B3DD001600FE /* NSString+HTMLEntities.h */,
+				CDAFD32519F2B3DD001600FE /* NSString+HTMLEntities.m */,
+			);
+			path = HTML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,11 +331,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD975F5119F2045500A20C86 /* Main.storyboard in Resources */,
-				CD975F7C19F2528F00A20C86 /* image00.png in Resources */,
+				CD975F7C19F2528F00A20C86 /* back.png in Resources */,
 				CD975F5619F2045500A20C86 /* LaunchScreen.xib in Resources */,
+				CDAFD2A119F26BE2001600FE /* pause.png in Resources */,
 				CD975F5319F2045500A20C86 /* Images.xcassets in Resources */,
-				CD975F7D19F2528F00A20C86 /* image01.png in Resources */,
-				CD975F7E19F2528F00A20C86 /* image02.png in Resources */,
+				CD975F7D19F2528F00A20C86 /* play.png in Resources */,
+				CDAFD33919F2C37A001600FE /* usatodaylogo.png in Resources */,
+				CD975F7E19F2528F00A20C86 /* forward.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +355,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDAFD32719F2B3DD001600FE /* HTMLDocument.m in Sources */,
+				CDAFD33019F2B3DD001600FE /* HTMLSerialization.m in Sources */,
+				CDAFD33419F2B3DD001600FE /* HTMLTreeEnumerator.m in Sources */,
+				CDAFD32619F2B3DD001600FE /* HTMLComment.m in Sources */,
+				CDAFD32D19F2B3DD001600FE /* HTMLParser.m in Sources */,
 				CD975F4E19F2045500A20C86 /* ViewController.m in Sources */,
+				CDAFD32A19F2B3DD001600FE /* HTMLEntities.m in Sources */,
+				CDAFD32B19F2B3DD001600FE /* HTMLNode.m in Sources */,
+				CDAFD32819F2B3DD001600FE /* HTMLDocumentType.m in Sources */,
+				CDAFD32F19F2B3DD001600FE /* HTMLSelector.m in Sources */,
+				CDAFD33219F2B3DD001600FE /* HTMLTextNode.m in Sources */,
+				CDAFD32C19F2B3DD001600FE /* HTMLOrderedDictionary.m in Sources */,
+				CDAFD32919F2B3DD001600FE /* HTMLElement.m in Sources */,
 				CD975F7819F245B800A20C86 /* OSSpritzLabel.m in Sources */,
+				CDAFD33319F2B3DD001600FE /* HTMLTokenizer.m in Sources */,
+				CDAFD32E19F2B3DD001600FE /* HTMLPreprocessedInputStream.m in Sources */,
+				CDAFD33519F2B3DD001600FE /* NSString+HTMLEntities.m in Sources */,
 				CD975F4B19F2045500A20C86 /* AppDelegate.m in Sources */,
+				CDAFD33119F2B3DD001600FE /* HTMLString.m in Sources */,
 				CD975F4819F2045500A20C86 /* main.m in Sources */,
 				CD975F7719F245B800A20C86 /* OSSpritz.m in Sources */,
 			);
@@ -446,6 +568,7 @@
 				CD975F6719F2045600A20C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD975F6819F2045600A20C86 /* Build configuration list for PBXNativeTarget "limelightTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +577,7 @@
 				CD975F6A19F2045600A20C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

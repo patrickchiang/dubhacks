@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong) NSString *text;
 @property (nonatomic, assign) NSInteger wordsPerMinute;
+@property (nonatomic, assign) float currentIndex;
 
 - (float)progress;
 - (void)start;

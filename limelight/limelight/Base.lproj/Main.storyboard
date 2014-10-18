@@ -31,11 +31,11 @@
                         <subviews>
                             <view contentMode="scaleToFill" id="Ijs-bb-HbX">
                                 <rect key="frame" x="0.0" y="255" width="375" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="g7e-hb-orV" customClass="OSSpritzLabel">
                                         <rect key="frame" x="20" y="20" width="335" height="60"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
@@ -48,39 +48,53 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="udV-Fz-Gsw">
                                         <rect key="frame" x="71" y="24" width="19" height="23"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="image00.png">
+                                        <state key="normal" image="back.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="backClick:" destination="07b-VT-0Lb" eventType="touchUpInside" id="gOL-MW-tEG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xzl-fU-y5N">
                                         <rect key="frame" x="183" y="24" width="19" height="23"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="image02.png">
+                                        <state key="normal" image="forward.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="forwardClick:" destination="07b-VT-0Lb" eventType="touchUpInside" id="PZj-RV-4IE"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="lEl-Yl-2IN">
                                         <rect key="frame" x="127" y="16" width="34" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="image01.png">
+                                        <state key="normal" image="play.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playClick:" destination="07b-VT-0Lb" eventType="touchUpInside" id="lp2-bn-t9Q"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rmV-fh-l6Q">
-                                        <rect key="frame" x="273" y="21" width="67" height="30"/>
+                                    <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rmV-fh-l6Q">
+                                        <rect key="frame" x="262" y="21" width="88" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="250 WPM">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="250 WPM"/>
+                                        <connections>
+                                            <action selector="wpmTouch:" destination="07b-VT-0Lb" eventType="touchUpInside" id="MqY-5Z-efr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7ni-x6-0Rr">
+                                        <rect key="frame" x="122" y="16" width="34" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="pause.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="pauseClick:" destination="07b-VT-0Lb" eventType="touchUpInside" id="N6J-Uw-07M"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.098039215690000001" green="0.26274509800000001" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" id="z88-BF-5MX">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.098039215686274508" green="0.2627450980392157" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" id="68p-yD-dev">
                                 <rect key="frame" x="0.0" y="550" width="375" height="47"/>
@@ -89,9 +103,52 @@
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="250" minValue="0.0" maxValue="1000" id="12Q-hd-fQx">
                                         <rect key="frame" x="15" y="8" width="345" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="wpmSlider:" destination="07b-VT-0Lb" eventType="valueChanged" id="O8q-Vb-xU2"/>
+                                        </connections>
                                     </slider>
                                 </subviews>
                                 <color key="backgroundColor" red="0.82745098039215681" green="0.82745098039215681" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="z88-BF-5MX">
+                                <rect key="frame" x="0.0" y="20" width="375" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <color key="backgroundColor" red="0.098039215686274508" green="0.2627450980392157" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="aSI-G6-i7g">
+                                <rect key="frame" x="0.0" y="80" width="375" height="175"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usatodaylogo.png" id="NNG-jQ-cqM">
+                                        <rect key="frame" x="27" y="0.0" width="321" height="175"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.015686274509803921" green="0.62745098039215685" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="skw-ao-fD6" appends="YES" id="VSl-wU-7xZ"/>
+                                    <outletCollection property="gestureRecognizers" destination="eNH-1u-Day" appends="YES" id="2N4-fc-ThW"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="xnp-d3-n3s">
+                                <rect key="frame" x="0.0" y="354" width="375" height="198"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Headline" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8oM-Z3-wxr">
+                                        <rect key="frame" x="16" y="8" width="343" height="179"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="skw-ao-fD6" appends="YES" id="Eed-C9-ANS"/>
+                                    <outletCollection property="gestureRecognizers" destination="eNH-1u-Day" appends="YES" id="Tpx-2X-Ug7"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -99,18 +156,36 @@
                     <navigationItem key="navigationItem" id="cTo-SE-vpQ"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="headlineLabel" destination="8oM-Z3-wxr" id="TWE-nl-g6W"/>
+                        <outlet property="pauseButton" destination="7ni-x6-0Rr" id="Np0-Nd-WbL"/>
+                        <outlet property="playButton" destination="lEl-Yl-2IN" id="HqO-Wn-7lm"/>
+                        <outlet property="sliderView" destination="68p-yD-dev" id="VUm-lz-44i"/>
                         <outlet property="spritzLabel" destination="g7e-hb-orV" id="Xyj-C0-zLY"/>
+                        <outlet property="wpmLabel" destination="rmV-fh-l6Q" id="5rp-Ra-v3J"/>
+                        <outlet property="wpmSlider" destination="12Q-hd-fQx" id="2Ru-t3-6a8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYh-zW-bE0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="skw-ao-fD6">
+                    <connections>
+                        <action selector="swipeLeft:" destination="07b-VT-0Lb" id="25b-nn-6Ee"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="eNH-1u-Day">
+                    <connections>
+                        <action selector="swipeRight:" destination="07b-VT-0Lb" id="qiY-F7-eOE"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="152.5" y="247.5"/>
+            <point key="canvasLocation" x="408.5" y="145.5"/>
         </scene>
     </scenes>
     <resources>
-        <image name="image00.png" width="94" height="94"/>
-        <image name="image01.png" width="140" height="162"/>
-        <image name="image02.png" width="94" height="94"/>
+        <image name="back.png" width="94" height="94"/>
+        <image name="forward.png" width="94" height="94"/>
+        <image name="pause.png" width="108" height="111"/>
+        <image name="play.png" width="140" height="162"/>
+        <image name="usatodaylogo.png" width="425" height="266"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

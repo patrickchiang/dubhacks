@@ -180,6 +180,8 @@
         currentWordStr = [currentWordStr substringToIndex:[currentWordStr length]-1];
     }
     
+    self.currentIndex = currentChar;
+    
     // Looks for the string in the text
     NSRange range = [_text safeRangeOfString:currentWordStr options:NSLiteralSearch range:(NSRange){currentChar,[_text length]}];
     
@@ -240,7 +242,7 @@
 {
     if (spritzedText)
     {
-        return currentWord/[spritzedText count];
+        return self.currentIndex;
     }
     return 0;
 }
