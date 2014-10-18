@@ -19,9 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.spritzLabel.text = @"In publishing and graphic design, lorem ipsum is a filler text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content that could be distracting with placeholder text may allow viewers to focus on graphic aspects such as font, typography, and page layout.";
-    self.spritzLabel.text = @"1 2 3 4. 5 6 7 8. 9 10 11 12. 13 14 15 16.";
-
+    self.spritzLabel.text = @"Article";
+    [self.spritzLabel start];
+    [self.spritzLabel pause];
+    
     [self fetchStories:@"home"];
 }
 

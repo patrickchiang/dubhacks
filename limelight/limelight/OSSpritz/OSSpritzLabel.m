@@ -72,7 +72,7 @@
         label.text = @"m";
         [self addSubview:label];
     }
-    self.wordsPerMinute = 250;
+    self.wordsPerMinute = 400;
     labelViews = [self.subviews copy];
     currentWord = 0;
     currentChar = 0;
@@ -83,7 +83,6 @@
 {
     {
         float guideX = ((UIView*)labelViews[pivotChar]).center.x;
-        float guideHeight = 9;
         //// Abstracted Attributes
         UIBezierPath* upperGuidePath = [UIBezierPath bezierPathWithRect:CGRectMake(guideX, 0, 1, self.frame.size.height / 4)];
         UIBezierPath* lowerGuidePath = [UIBezierPath bezierPathWithRect:CGRectMake(guideX, self.frame.size.height * 3 / 4, 1, self.frame.size.height / 4)];
